@@ -1,6 +1,6 @@
 /**
  * @file    master.ma
- * @brief   philae master assembly placeholder — prints "Hello World", exits 0
+ * @brief   philae master assembly placeholder - prints "Hello World", exits 0
  * @why     The project's master assembly must exist, build from machine-code
  *          assembly, and run end-to-end from day zero. This placeholder
  *          proves the toolchain, the .ma comment convention, and the run
@@ -16,6 +16,8 @@
  *            machine readers), @see; file-header-only: @syntax/@build/@run/@exit.
  *          - Inline doc comments after an instruction clarify one line;
  *            # line comments carry mechanical notes; reasoning lives in @why.
+ *          - Em dashes (U+2014) are strictly forbidden in comments and code:
+ *            use ASCII hyphens or rephrase.
  *          Agents MUST keep @brief/@why truthful when editing.
  */
 
@@ -25,7 +27,7 @@
 
 /**
  * @brief   Program entry: one write(2) syscall, then exit(2)
- * @why     Raw syscalls keep the binary static and dependency-free — the
+ * @why     Raw syscalls keep the binary static and dependency-free - the
  *          kernel is the only service provider. A placeholder benefits
  *          from an explicit, auditable runtime contract; libc/crt0 would
  *          add preamble this program does not use.
@@ -40,7 +42,7 @@ _start:
     syscall               # @why kernel boundary: bytes written are returned in %rax
     mov $60, %rax         # syscall number 60 = exit
     xor %rdi, %rdi        # status 0
-    syscall               # @agent no ret here — exit(2) never returns; do not fall through
+    syscall               # @agent no ret here - exit(2) never returns; do not fall through
 
 .section .rodata
 
