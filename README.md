@@ -6,7 +6,7 @@
 
 ## Vision
 
-The long-term goal of philae is a fully 3D interactive visual map of the planet, with instant search and a virtual camera you can move anywhere to explore it live — effectively turning the real world into a virtual, live-updated world. This terminal ASCII renderer is the current, first-slice implementation of that engine.
+The long-term goal of philae is a fully 3D interactive visual map of the planet, with instant search and a virtual camera you can move anywhere to explore it live -- effectively turning the real world into a virtual, live-updated world. This terminal ASCII renderer is the current, first-slice implementation of that engine.
 
 ## Data
 
