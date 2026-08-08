@@ -1,3 +1,5 @@
+[agentic review instructions](AGENT-GUIDANCE.md)
+
 ![philae preview](docs/preview.png)
 
 # philae
