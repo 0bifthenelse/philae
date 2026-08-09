@@ -1,6 +1,6 @@
 [agentic review instructions](AGENT-GUIDANCE.md)
 
-![philae preview](docs/preview.png)
+[Watch the philae preview video](https://www.youtube.com/watch?v=j4-2XCIZmTM)
 
 # philae
 
